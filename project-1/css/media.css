@@ -1,0 +1,64 @@
+@media screen and ( max-width: 480px) {
+    .header_menu, .first_screen__right, .frame_1__left, .frame_2__pic, .frame_2__header__center__section > img,
+    .frame_2__header__right__section > img, .frame_3__card > img, .frame_4, .frame_5__right,
+    .frame_6__content__right,.footer__general__info__column__left {
+        display: none;
+    }
+
+    .wrapper, .frame_1, .frame_2, .frame_3, .frame_5__left{
+        padding: 0 20px;
+    }
+
+    .button_talk__to__us {
+        position: inherit;
+    }
+
+    .first_screen__grid h1 {
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .mobile_menu__button {
+        display: flex;
+    }
+
+    .frame_2__header, .frame_3__main, .frame_5__main, .frame_6__content,
+    .footer__general__info__columns,.footer__bottom__left{
+        display: inline;
+    }
+
+    .frame_1 h2, .frame_2 h2, .frame_3 h2 {
+        padding-top: 20px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .frame_5__main p {
+        font-size: 16px;
+    }
+
+    .frame_6{
+        height: 400px;
+        background-color: #8BD4D6;
+        margin-top: 75px;
+    }
+
+    .frame_6__content__left h2{
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .footer__wrapper{
+        padding-left: 20px;
+    }
+
+    .footer__bottom__right{
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    .footer__general__info__column p {
+        font-size: 20px;
+    }
+
+}

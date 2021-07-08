@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    padding-left: 145px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-items-center {
+    align-items: center;
+}
+
+.f-weight-400 {
+    font-weight: 400;
+}
+
+.f-weight-700 {
+    font-weight: 700;
+}
+
+.f-size-16 {
+    font-size: 16px;
+}
+
+.f-size-18 {
+    font-size: 18px;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.header_top {
+    height: 100px;
+}
+
+.header_top__grid {
+    grid-column-gap: 141px;
+}
+
+.header_menu__nav {
+    grid-column-gap: 22px;
+}
+
+.header_menu__buttons {
+    margin-left: 27px;
+    grid-column-gap: 18px;
+}
+
+.header_menu__nav__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+
+}
+
+.header_menu__buttons__login {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.header_menu__buttons__login:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.header_menu__buttons__expert {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.header_menu__buttons__expert:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.header_menu__buttons__login, .header_menu__buttons__expert, .button_talk__to__us button,
+.button_discover__what__we__do button, .button__vue__hub button, .button__get__started button {
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+
+.mobile_menu__button {
+    width: 60px;
+    height: 60px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_menu__button span {
+    height: 5px;
+    width: 80%;
+    display:block;
+    position: relative;
+}
+
+.mobile_menu__button::before, .mobile_menu__button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.mobile_menu__button::before {
+    top: 10px;
+}
+
+.mobile_menu__button::after {
+    bottom: -10px;
+}
+
+.first_screen {
+    position: relative;
+}
+
+.first_screen__left {
+    max-width: 490px;
+    padding-top: 92px;
+}
+
+.first_screen__grid {
+    column-gap: 50px;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.first_screen__grid h1 {
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 83px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.first_screen__left p {
+    color: #000000;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.button_talk__to__us button {
+    font-size: 22px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 27px;
+}
+
+.button_talk__to__us h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button_talk__to__us {
+    width: 215px;
+    flex-direction: column;
+    position: absolute;
+    bottom: -30px;
+    left: 140px;
+}
+
+.main_frame {
+    margin-top: 104px;
+}
+
+.padding-l {
+    padding-left: 145px;
+}
+
+.frame_1 {
+    margin-top: 54px;
+    column-gap: 104px;
+}
+
+.frame_1__left {
+    width: 483px;
+    height: 280px;
+    padding-top: 84px;
+}
+
+.frame_1__right h2 {
+    max-width: 443px;
+    padding-top: 52px;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 57px;
+    margin-bottom: 33px;
+}
+
+.frame_1__right p {
+    max-width: 515px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 126px;
+}
+
+.frame_2 {
+    padding-top: 45px;
+    height: 791px;
+}
+
+.frame_2__header {
+    column-gap: 70px;
+}
+
+.frame_2 h2 {
+    padding-top: 88px;
+    font-size: 58px;
+    line-height: 58px;
+    margin-bottom: 82px;
+}
+
+.frame_2__pic {
+    width: 200px;
+    height: 150px;
+}
+
+.frame_2__header__left__section h3, .frame_2__header__center__section h3, .frame_2__header__right__section h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 24px;
+}
+
+.frame_2__header__left__section p, .frame_2__header__center__section p, .frame_2__header__right__section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10px;
+    margin-bottom: 71px;
+}
+
+.frame_2__header__left__section {
+    max-width: 295px;
+}
+
+.frame_2__header__center__section {
+    max-width: 292px;
+}
+
+.frame_2__header__right__section {
+    max-width: 272px;
+}
+
+.button_discover__what__we__do {
+    width: 235px;
+}
+
+.button_discover__what__we__do button, .button__vue__hub button {
+    font-size: 18px;
+    color: #000000;
+    background-color: #F7B2B7;
+    border: none;
+}
+
+.frame_3 {
+    margin-top: 126px;
+    background: #FDECED;
+    width: 1440px;
+    height: 705px;
+
+}
+
+.frame_3 h2 {
+    margin: 88px 0;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    padding-top: 88px;
+}
+
+.frame_3__card {
+    width: 309px;
+}
+
+.frame_3__main {
+    column-gap: 60px;
+}
+
+.frame_3__card h3 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.frame_3__card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.frame_4 {
+    height: 522px;
+}
+
+.frame_4__left__content {
+    width: 236px;
+    height: 72px;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 129px;
+}
+
+.frame_4__right__content {
+    width: 800px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.frame_5__main {
+    height: 637px;
+    column-gap: 120px;
+}
+
+.frame_5__left {
+    width: 547px;
+
+}
+
+.frame_5__right {
+    width: 483px;
+    height: 451px;
+}
+
+.frame_5__left h2 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-top: 191px;
+}
+
+.frame_5__left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.frame_5__right {
+    margin-top: 108px;
+    margin-bottom: 78px;
+}
+
+.button__vue__hub {
+    width: 140px;
+    margin-top: 79px;
+}
+
+.frame_6__content {
+    width: 1150px;
+    height: 283px;
+    margin: 108px 145px;
+    background-color: #8BD4D6;
+    border-radius: 10px;
+}
+
+.frame_6__content__left {
+    padding-left: 90px;
+}
+
+.frame_6__content__left h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 89px;
+    margin-bottom: 18px;
+}
+
+.frame_6__content__left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 89px;
+}
+
+.button__get__started {
+    margin-top: 100px;
+    margin-right: 50px;
+    position: absolute;
+
+}
+
+.button__get__started button {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    margin-left: 196px;
+}
+
+.frame_6__content__right {
+    height: 283px;
+    width: 470px;
+    position: relative;
+}
+
+.footer {
+    background: #302E3F;
+    width: 1440px;
+    height: 631px;
+}
+
+.footer__wrapper__header {
+    column-gap: 18px;
+}
+
+.footer__wrapper__header__logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+.footer__wrapper__header__text h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 54px;
+}
+
+.footer__general__info__column h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer__general__info__column p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C5E9EA;
+}
+
+.footer__general__info__columns {
+    margin-top: 50px;
+}
+
+.footer__general__info__column__left {
+    column-gap: 70px;
+}
+
+.footer__general__info__column__right {
+    margin-left: 143px;
+}
+
+.footer__info__section {
+    margin-top: 81px;
+}
+
+.footer__info__section h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer__info__section p {
+    line-height: 22px;
+    color: #C5E9EA;
+    margin-bottom: 8px;
+}
+
+.footer__bottom__text p {
+    margin-top: 62px;
+    line-height: 22px;
+    color: #C5E9EA;
+}
+
+.footer__bottom__left {
+    column-gap: 27px;
+}
+
+.footer__bottom__right {
+    width: 70px;
+    height: 70px;
+    margin-left: 526px;
+}
